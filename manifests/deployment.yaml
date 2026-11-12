@@ -17,7 +17,7 @@ spec:
       containers:
         - name: demo-app
           # CI updates this tag on every push to main
-          image: ghcr.io/nikhil-flux/gitops-demo-app:latest
+          image: ghcr.io/nikhil-flux/gitops-demo-app:63eb861a5f5407c57abc19d316df4a395712a86d
           ports:
             - containerPort: 8080
           env:
