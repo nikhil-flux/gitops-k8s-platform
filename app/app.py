@@ -27,7 +27,7 @@ def record_metrics(response):
 
 @app.route("/")
 def index():
-    return jsonify(message="Hello from gitops-k8s-platform", version=VERSION)
+    return jsonify(message="Hello from my gitops-k8s-platform myself Nikhil Gupta v2", version=VERSION)
 
 
 @app.route("/health")
